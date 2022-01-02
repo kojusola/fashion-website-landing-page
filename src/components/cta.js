@@ -13,20 +13,32 @@ const Cta = () => {
         <Chakra.Box
           display="flex"
           alignItems="center"
-          px="60px"
+          px={{ base: "30px", lg: "60px" }}
           maxWidth="1394px"
           mx="auto"
         >
-          <Chakra.Box paddingTop="56px" alignItems="center" display="flex">
+          <Chakra.Box
+            paddingTop={{ base: "10px", sm: "20px", md: "30px", lg: "56px" }}
+            alignItems="center"
+            display="flex"
+          >
             <Chakra.Text
               marginBottom="0px"
               fontFamily="Clash Display"
               fontWeight="600"
-              fontSize="200px"
-              lineHeight="200px"
+              fontSize={{
+                base: "50px",
+                lg: "180px",
+                xl: "200px",
+              }}
+              lineHeight={{
+                base: "50px",
+                lg: "180px",
+                xl: "200px",
+              }}
               letterSpacing="0.25px"
               color="#FFFFFF"
-              marginRight="32px"
+              marginRight={{ base: "10px", sm: "20px", md: "32px" }}
             >
               Drip
             </Chakra.Text>
@@ -35,8 +47,8 @@ const Cta = () => {
                 marginBottom="0px"
                 fontFamily="Clash Display"
                 fontWeight="500"
-                fontSize="24px"
-                lineHeight="30px"
+                fontSize={{ base: "10px", md: "24px" }}
+                lineHeight={{ base: "10px", md: "30px" }}
                 letterSpacing="0.20px"
                 color="#FFFFFF"
               >
@@ -52,14 +64,14 @@ const Cta = () => {
         display="flex"
         alignItems="center"
         width="100%"
-        bottom="56px"
+        bottom={{ base: "15px", lg: "56px" }}
         position="absolute"
       >
         <Chakra.Box
           display="flex"
           alignItems="center"
           justifyContent="flex-start"
-          px="60px"
+          px={{ base: "30px", lg: "60px" }}
           maxWidth="1394px"
           width="100%"
           mx="auto"
@@ -68,17 +80,27 @@ const Cta = () => {
             marginBottom="0px"
             fontFamily="Clash Display"
             fontWeight="300"
-            fontSize={{ base: "16px", xl: "24px" }}
-            lineHeight={{ base: "16px", xl: "50px" }}
-            marginRight="27px"
-            marginLeft="26px"
+            fontSize={{ base: "10px", md: "24px" }}
+            lineHeight={{ base: "10px", md: "50px" }}
+            marginRight={{ md: "27px" }}
+            marginLeft={{ md: "26px" }}
           >
             Shop the collection
           </Chakra.Text>
-          <ArrowIcon height="28px" width="44px" />
+          <Chakra.Box display={{ base: "none", md: "flex" }}>
+            <ArrowIcon height="28px" width="44px" />
+          </Chakra.Box>
+          <Chakra.Box display={{ base: "flex", md: "none" }}>
+            <ArrowIcon height="10px" width="44px" />
+          </Chakra.Box>
         </Chakra.Box>
       </Chakra.Box>
-      <Chakra.Box position="absolute" bottom="0px" right="0px">
+      <Chakra.Box
+        display={{ base: "none", md: "flex" }}
+        position="absolute"
+        bottom="0px"
+        right="0px"
+      >
         <CtaSvg />
       </Chakra.Box>
     </Chakra.Box>

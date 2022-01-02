@@ -3,12 +3,16 @@ import * as Chakra from "@chakra-ui/react"
 // import { Link } from "gatsby"
 
 const Footer = ({ siteTitle }) => (
-  <Chakra.Box py="151px" backgroundColor="#000000">
+  <Chakra.Box
+    py={{ base: "20px", sm: "50px", xl: "151px" }}
+    backgroundColor="#000000"
+  >
     <Chakra.Box
       display="flex"
       alignItems="center"
       justifyContent="center"
-      px="60px"
+      justifyContent="space-between"
+      px={{ base: "30px", lg: "60px" }}
       maxWidth="1394px"
       mx="auto"
     >
@@ -16,11 +20,11 @@ const Footer = ({ siteTitle }) => (
         marginBottom="0px"
         fontFamily="Clash Display"
         fontWeight="400"
-        fontSize="50px"
-        lineHeight="50px"
+        fontSize={{ base: "10px", sm: "20px", xl: "50px" }}
+        lineHeight={{ base: "10px", sm: "20px", xl: "50px" }}
         letterSpacing="0.25px"
         color="#FFFFFF"
-        marginRight="96px"
+        marginRight={{ base: "10px", sm: "20px", xl: "96px" }}
       >
         Home
       </Chakra.Text>
@@ -28,11 +32,11 @@ const Footer = ({ siteTitle }) => (
         marginBottom="0px"
         fontFamily="Clash Display"
         fontWeight="400"
-        fontSize="50px"
-        lineHeight="50px"
+        fontSize={{ base: "10px", sm: "20px", xl: "50px" }}
+        lineHeight={{ base: "10px", sm: "20px", xl: "50px" }}
         letterSpacing="0.25px"
         color="#FFFFFF"
-        marginRight="96px"
+        marginRight={{ base: "10px", sm: "20px", xl: "96px" }}
       >
         Collections
       </Chakra.Text>
@@ -40,11 +44,11 @@ const Footer = ({ siteTitle }) => (
         marginBottom="0px"
         fontFamily="Clash Display"
         fontWeight="400"
-        fontSize="50px"
-        lineHeight="50px"
+        fontSize={{ base: "10px", sm: "20px", xl: "50px" }}
+        lineHeight={{ base: "10px", sm: "20px", xl: "50px" }}
         letterSpacing="0.25px"
         color="#FFFFFF"
-        marginRight="96px"
+        marginRight={{ base: "10px", sm: "20px", xl: "96px" }}
       >
         Promo
       </Chakra.Text>
@@ -52,8 +56,8 @@ const Footer = ({ siteTitle }) => (
         marginBottom="0px"
         fontFamily="Clash Display"
         fontWeight="400"
-        fontSize="50px"
-        lineHeight="50px"
+        fontSize={{ base: "10px", sm: "20px", xl: "50px" }}
+        lineHeight={{ base: "10px", sm: "20px", xl: "50px" }}
         letterSpacing="0.25px"
         color="#FFFFFF"
       >

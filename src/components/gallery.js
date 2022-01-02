@@ -45,13 +45,13 @@ const Gallery = () => {
   })
   return (
     <Chakra.Box
-      mt="143px"
-      mb="157px"
+      mt={{ base: "50px", xl: "143px" }}
+      mb={{ base: "50px", xl: "157px" }}
       position="relative"
       backgroundColor="#FFFFFF"
     >
       <Chakra.Box
-        display="flex"
+        display={{ base: "none", xl: "flex" }}
         alignItems="center"
         justifyContent="center"
         px="60px"
@@ -108,6 +108,36 @@ const Gallery = () => {
             </Chakra.Text>
             <ArrowIcon height="28px" width="44px" />
           </Chakra.Box>
+        </Chakra.Box>
+      </Chakra.Box>
+      <Chakra.Box
+        width="100%"
+        display={{ base: "flex", xl: "none" }}
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        px={{ base: "30px", lg: "60px" }}
+        maxWidth="1394px"
+      >
+        <Chakra.Image src={GalleryImageThree}></Chakra.Image>
+        <Chakra.Box
+          display="flex"
+          alignItems="center"
+          justifyContent="flex-start"
+          mx="auto"
+        >
+          <Chakra.Text
+            marginBottom="0px"
+            fontFamily="Clash Display"
+            textAlign="left"
+            fontWeight="500"
+            fontSize={{ base: "16px", xl: "24px" }}
+            lineHeight={{ base: "16px", xl: "50px" }}
+            marginRight="10px"
+          >
+            Shop the collection
+          </Chakra.Text>
+          <ArrowIcon height="13px" width="40px" />
         </Chakra.Box>
       </Chakra.Box>
     </Chakra.Box>

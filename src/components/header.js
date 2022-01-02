@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       display="flex"
       alignItems="center"
       justifyContent="space-between"
-      px="60px"
+      px={{ base: "30px", lg: "60px" }}
       py="9px"
       maxWidth="1394px"
       mx="auto"
@@ -20,15 +20,15 @@ const Header = ({ siteTitle }) => (
           marginBottom="0px"
           fontFamily="Clash Display"
           fontWeight="300"
-          fontSize="30px"
-          lineHeight="70px"
+          fontSize={{ base: "15px", sm: "20px", md: "30px" }}
+          lineHeight={{ base: "15px", sm: "40px", md: "70px" }}
           letterSpacing="0.25px"
           color="#1C1C1C"
         >
           2022 Drip
         </Chakra.Text>
       </Chakra.Box>
-      <Chakra.Box display="flex" alignItems="center">
+      <Chakra.Box display={{ base: "none", md: "flex" }} alignItems="center">
         <Chakra.Text
           marginBottom="0px"
           fontFamily="Satoshi"
