@@ -173,6 +173,7 @@ const Collections = () => (
               fontSize={{ base: "13px", sm: "16px", xl: "24px" }}
               lineHeight={{ base: "13px", sm: "16px", xl: "50px" }}
               marginRight={{ base: "5px", sm: "27px" }}
+              color="#1C1C1C"
             >
               Shop the collection
             </Chakra.Text>
@@ -258,6 +259,7 @@ const Collections = () => (
               fontSize={{ base: "13px", sm: "16px", xl: "24px" }}
               lineHeight={{ base: "13px", sm: "16px", xl: "50px" }}
               marginRight={{ base: "5px", sm: "27px" }}
+              color="#1C1C1C"
             >
               Shop the collection
             </Chakra.Text>
@@ -343,6 +345,7 @@ const Collections = () => (
               fontSize={{ base: "13px", sm: "16px", xl: "24px" }}
               lineHeight={{ base: "13px", sm: "16px", xl: "50px" }}
               marginRight={{ base: "5px", sm: "27px" }}
+              color="#1C1C1C"
             >
               Shop the collection
             </Chakra.Text>

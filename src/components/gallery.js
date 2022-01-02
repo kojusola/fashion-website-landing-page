@@ -134,6 +134,7 @@ const Gallery = () => {
             fontSize={{ base: "16px", xl: "24px" }}
             lineHeight={{ base: "16px", xl: "50px" }}
             marginRight="10px"
+            color="#1C1C1C"
           >
             Shop the collection
           </Chakra.Text>

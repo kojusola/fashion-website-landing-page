@@ -84,6 +84,7 @@ const Cta = () => {
             lineHeight={{ base: "10px", md: "50px" }}
             marginRight={{ md: "27px" }}
             marginLeft={{ md: "26px" }}
+            color="#1C1C1C"
           >
             Shop the collection
           </Chakra.Text>
