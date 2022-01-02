@@ -60,7 +60,7 @@ const Collections = () => (
       mx="auto"
       position="relative"
     >
-      <Chakra.Text
+      <Chakra.Box
         display="flex"
         marginBottom="0px"
         fontFamily="Clash Display"
@@ -90,7 +90,7 @@ const Collections = () => (
         <Chakra.Box display={{ base: "flex", md: "none" }}>
           <Arrow width="44" height="9" />
         </Chakra.Box>
-      </Chakra.Text>
+      </Chakra.Box>
       <Chakra.Box
         paddingTop={{ base: "40px", lg: "94px" }}
         display="flex"
