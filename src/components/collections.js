@@ -96,14 +96,15 @@ const Collections = () => (
         display="flex"
         flexDirection={{ base: "column", md: "row" }}
         alignItems="center"
-        justifyContent={{ base: "center", md: "space-between" }}
+        justifyContent="center"
         width="100%"
       >
         <Chakra.Box
-          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          maxWidth={{ base: "auto", md: "calc(33% - 14px)" }}
           width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
+          marginRight={{ base: "0px", md: "20px" }}
           _hover={{
             ".image": {
               filter: "brightness(50%)",
@@ -184,10 +185,11 @@ const Collections = () => (
           </Chakra.Box>
         </Chakra.Box>
         <Chakra.Box
-          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          maxWidth={{ base: "auto", md: "calc(33% - 14px)" }}
           width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
+          marginRight={{ base: "0px", md: "20px" }}
           _hover={{
             ".image": {
               filter: "brightness(50%)",
@@ -268,10 +270,11 @@ const Collections = () => (
           </Chakra.Box>
         </Chakra.Box>
         <Chakra.Box
-          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          maxWidth={{ base: "auto", md: "calc(33% - 14px)" }}
           width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
+          marginRight={{ base: "0px", md: "20px" }}
           _hover={{
             ".image": {
               filter: "brightness(50%)",
