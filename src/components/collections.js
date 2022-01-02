@@ -62,7 +62,7 @@ const Collections = () => (
           {" "}
           Join now{" "}
         </Chakra.Link>{" "}
-        <Arrow />
+        <Arrow width="66" height="42" />
       </Chakra.Text>
       <Chakra.Box
         pt="94px"
@@ -84,12 +84,51 @@ const Collections = () => (
               filter: "brightness(100%)",
               color: "#FFFFFF",
             },
+            ".boxAspect": {
+              filter: "brightness(100%)",
+              color: "#FFFFFF",
+              display: "flex",
+            },
           }}
         >
           <Chakra.Image
             className="image"
             src={CollectionImageOne}
           ></Chakra.Image>
+          <Chakra.Box
+            className="boxAspect"
+            display="none"
+            alignItems="center"
+            justifyContent="center"
+            width="100%"
+            height="90%"
+            top="0"
+            bottom="40px"
+            position="absolute"
+          >
+            <Chakra.Box
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              py="10px"
+              px="30px"
+              margin="auto"
+              borderRadius="8px"
+              border="2px solid #FFFFFF"
+            >
+              <Chakra.Text
+                marginBottom="0px"
+                fontFamily="Clash Display"
+                color="#FFFFFF"
+                fontWeight="300"
+                fontSize={{ base: "16px", xl: "30px" }}
+                lineHeight={{ base: "16px", xl: "50px" }}
+                letterSpacing="0.25"
+              >
+                25% off
+              </Chakra.Text>
+            </Chakra.Box>
+          </Chakra.Box>
           <Chakra.Box
             className="textAspect"
             display="flex"
@@ -123,6 +162,11 @@ const Collections = () => (
             ".textAspect": {
               filter: "brightness(100%)",
               color: "#FFFFFF",
+            },
+            ".boxAspect": {
+              filter: "brightness(100%)",
+              color: "#FFFFFF",
+              display: "flex",
             },
           }}
         >
@@ -131,6 +175,40 @@ const Collections = () => (
             src={CollectionImageTwo}
           ></Chakra.Image>
           <Chakra.Box
+            className="boxAspect"
+            display="none"
+            alignItems="center"
+            justifyContent="center"
+            width="100%"
+            height="90%"
+            top="0"
+            bottom="40px"
+            position="absolute"
+          >
+            <Chakra.Box
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              py="10px"
+              px="30px"
+              margin="auto"
+              borderRadius="8px"
+              border="2px solid #FFFFFF"
+            >
+              <Chakra.Text
+                marginBottom="0px"
+                fontFamily="Clash Display"
+                color="#FFFFFF"
+                fontWeight="300"
+                fontSize={{ base: "16px", xl: "30px" }}
+                lineHeight={{ base: "16px", xl: "50px" }}
+                letterSpacing="0.25"
+              >
+                25% off
+              </Chakra.Text>
+            </Chakra.Box>
+          </Chakra.Box>
+          <Chakra.Box
             className="textAspect"
             display="flex"
             alignItems="center"
@@ -164,12 +242,51 @@ const Collections = () => (
               filter: "brightness(100%)",
               color: "#FFFFFF",
             },
+            ".boxAspect": {
+              filter: "brightness(100%)",
+              color: "#FFFFFF",
+              display: "flex",
+            },
           }}
         >
           <Chakra.Image
             className="image"
             src={CollectionImageThree}
           ></Chakra.Image>
+          <Chakra.Box
+            className="boxAspect"
+            display="none"
+            alignItems="center"
+            justifyContent="center"
+            width="100%"
+            height="90%"
+            top="0"
+            bottom="40px"
+            position="absolute"
+          >
+            <Chakra.Box
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              py="10px"
+              px="30px"
+              margin="auto"
+              borderRadius="8px"
+              border="2px solid #FFFFFF"
+            >
+              <Chakra.Text
+                marginBottom="0px"
+                fontFamily="Clash Display"
+                color="#FFFFFF"
+                fontWeight="300"
+                fontSize={{ base: "16px", xl: "30px" }}
+                lineHeight={{ base: "16px", xl: "50px" }}
+                letterSpacing="0.25"
+              >
+                25% off
+              </Chakra.Text>
+            </Chakra.Box>
+          </Chakra.Box>
           <Chakra.Box
             className="textAspect"
             display="flex"

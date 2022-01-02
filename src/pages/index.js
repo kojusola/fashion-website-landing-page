@@ -1,6 +1,8 @@
 import * as React from "react"
 import Hero from "../components/hero"
 import Collections from "../components/collections"
+import Cta from "../components/cta"
+import Gallery from "../components/gallery"
 // import { Link } from "gatsby"
 // import { StaticImage } from "gatsby-plugin-image"
 
@@ -12,6 +14,8 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero />
     <Collections />
+    <Cta />
+    <Gallery />
   </Layout>
 )
 
