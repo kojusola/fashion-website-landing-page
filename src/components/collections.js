@@ -92,7 +92,7 @@ const Collections = () => (
         </Chakra.Box>
       </Chakra.Text>
       <Chakra.Box
-        pt={{ base: "40px", lg: "94px" }}
+        paddingTop={{ base: "40px", lg: "94px" }}
         display="flex"
         flexDirection={{ base: "column", md: "row" }}
         alignItems="center"
@@ -100,8 +100,8 @@ const Collections = () => (
         width="100%"
       >
         <Chakra.Box
-          maxWidth={{ base: "80%", md: "calc(33% - 20px)" }}
-          width="100%"
+          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
           _hover={{
@@ -184,8 +184,8 @@ const Collections = () => (
           </Chakra.Box>
         </Chakra.Box>
         <Chakra.Box
-          maxWidth={{ base: "80%", md: "calc(33% - 20px)" }}
-          width="100%"
+          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
           _hover={{
@@ -268,8 +268,8 @@ const Collections = () => (
           </Chakra.Box>
         </Chakra.Box>
         <Chakra.Box
-          maxWidth={{ base: "80%", md: "calc(33% - 20px)" }}
-          width="100%"
+          maxWidth={{ base: "auto", md: "calc(33% - 20px)" }}
+          width={{ base: "auto", md: "100%" }}
           position="relative"
           color="#1C1C1C"
           _hover={{
