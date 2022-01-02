@@ -2,7 +2,7 @@ import * as React from "react"
 import * as Chakra from "@chakra-ui/react"
 // import { Link } from "gatsby"
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <Chakra.Box
     py={{ base: "20px", sm: "50px", xl: "151px" }}
     backgroundColor="#000000"
@@ -11,7 +11,6 @@ const Footer = ({ siteTitle }) => (
       display="flex"
       alignItems="center"
       justifyContent="center"
-      justifyContent="space-between"
       px={{ base: "30px", lg: "60px" }}
       maxWidth="1394px"
       mx="auto"

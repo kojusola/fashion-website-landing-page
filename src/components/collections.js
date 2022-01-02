@@ -28,7 +28,7 @@ const ArrowIcon = props => (
 
 const SmallArrowIcon = props => (
   <Chakra.Icon
-    width="35"
+    width="29"
     height="18"
     viewBox="0 0 66 42"
     fill="none"
@@ -74,21 +74,21 @@ const Collections = () => (
         <Chakra.Link
           fontWeight="300"
           pl="4px"
-          pr={{ base: "15px", xl: "29px" }}
+          pr={{ base: "0px", xl: "29px" }}
           textDecoration="underline"
           href="#"
         >
           {" "}
-          Join now{" "}
-        </Chakra.Link>{" "}
-        <Chakra.Box display={{ base: "none", xl: "flex" }}>
+          Join now
+        </Chakra.Link>
+        <Chakra.Box mx="0px" display={{ base: "none", xl: "flex" }}>
           <Arrow width="66" height="42" />
         </Chakra.Box>
-        <Chakra.Box display={{ base: "none", md: "flex", xl: "none" }}>
+        <Chakra.Box mx="0px" display={{ base: "none", md: "flex", xl: "none" }}>
           <Arrow width="44" height="22" />
         </Chakra.Box>
-        <Chakra.Box display={{ base: "flex", md: "none" }}>
-          <Arrow width="44" height="9" />
+        <Chakra.Box mx="0px" display={{ base: "flex", md: "none" }}>
+          <Arrow width="24" height="9" />
         </Chakra.Box>
       </Chakra.Box>
       <Chakra.Box
